@@ -1,0 +1,36 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: linear-gradient(transparent, rgb(0, 26, 255));
+  background-color: rgb(0, 21, 59);
+}
+
+.login > img {
+  width: auto;
+  height: 200px;
+}
+
+.login > a {
+  padding: 20px;
+  border-radius: 99px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  background-color: #1db954;
+}
+
+.login > small {
+  color: #1db954;
+  font-weight: bold;
+  position: relative;
+  top: -90%;
+}
+
+.login > p {
+  color: #1db954;
+  font-weight: bold;
+  position: relative;
+  bottom: -25%;
+  font-size: 12px;
+}
